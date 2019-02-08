@@ -55,7 +55,7 @@ self.addEventListener('fetch', function (event) {
   );
 });
 
-selft.addEventListener('notificationclick', function (event) {
+self.addEventListener('notificationclick', function (event) {
   console.log('On notification click: ', event);
   clients.openWindow('/');
 });
